@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  helmtest:
+  - appVersion: "0.1"
+    created: 2018-02-01T16:20:53.027084Z
+    description: sample cpuloadapp
+    digest: ca39cb0b4ec423e8d1c284b841061304ead015bb2f4680f1e4c2eb25cb1cca0e
+    home: https://github.com/osalkk/helmtest
+    name: helmtest
+    sources:
+    - https://github.com/osalkk/helmtest
+    urls:
+    - https://osalkk.github.io/helmtest/charts/helmtest-0.1.tgz
+    version: "0.1"
+generated: 2018-02-01T16:20:53.025626Z
