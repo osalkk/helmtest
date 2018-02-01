@@ -1,0 +1,7 @@
+name: cpuloadapp
+description: sample cpuloadapp
+version: 0.1
+  home: https://github.com/osalkk/helmtest
+sources:
+  - https://github.com/osalkk/helmtest
+appVersion: 0.1
