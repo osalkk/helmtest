@@ -1,4 +1,4 @@
-name: cpuloadapp
+name: helmtest
 description: sample cpuloadapp
 version: 0.1
   home: https://github.com/osalkk/helmtest
