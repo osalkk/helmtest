@@ -14,7 +14,7 @@ spec:
     spec:
       restartPolicy: {{ .Values.restartPolicy }}
       containers:
-      - name: php1
+      - name: phpnew
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
         resources:
           requests:
