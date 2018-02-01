@@ -4,7 +4,7 @@ metadata:
   name: cpuloadtest
   namespace: {{ .Values.image.repository }}
 spec:
-  replicas: 1
+  replicas: {{ .Values.replicas }}
   template:
     metadata:
       labels:

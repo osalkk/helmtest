@@ -5,4 +5,5 @@ image:
 
 restartPolicy: Never
 
+replicas: 2
 namespace: test
