@@ -10,6 +10,6 @@ entries:
     sources:
     - https://github.com/osalkk/helmtest
     urls:
-    - https://osalkk.github.io/helmtest/charts/helmtest-0.1.tgz
+    - https://osalkk.github.io/helmtest/helmtest-0.1.tgz
     version: "0.1"
 generated: 2018-02-01T16:20:53.025626Z
