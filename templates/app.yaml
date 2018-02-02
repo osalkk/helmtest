@@ -2,7 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: cpuloadtest
-  namespace: {{ .Values.image.repository }}
+  namespace: {{ .Values.image.namespace }}
 spec:
   replicas: {{ .Values.replicas }}
   template:
@@ -28,7 +28,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: cpuload-service
-  namespace: {{ .Values.image.repository }}
+  namespace: {{ .Values.image.namespace }}
 spec:
   selector:
     app: cpuloadtest
@@ -44,7 +44,7 @@ apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
   name: cpuloadtest-hpa
-  namespace: {{ .Values.image.repository }}
+  namespace: {{ .Values.image.namespace }}
 spec:
   scaleTargetRef:
     apiVersion: apps/v1beta1
