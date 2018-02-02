@@ -1,9 +1,0 @@
-image:
-  repository: osalkk/cpuloadtest
-  tag: latest
-  pullPolicy: IfNotPresent
-
-restartPolicy: Never
-
-replicas: 2
-namespace: test
